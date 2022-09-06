@@ -22,26 +22,27 @@ let questions = [
       "Cascading Style Sheet"
     ]
   },
+
     {
-    numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
-    options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      numb: 3,
+      question: "Choose the correct HTML element for the largest heading?",
+      answer: "h1",
+      options: [
+         "heading",
+         "head",
+         "h6",
+        "h1"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "What is the correct HTML element for inserting a line break?",
+    answer: "br",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+       "br",
+       "break",
+       "lb",
+      "All of the Above"
     ]
   },
     {
@@ -55,9 +56,7 @@ let questions = [
       "eXamine Multiple Language"
     ]
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
+ 
      {
     numb: 6,
     question: "What does DOM stand for",
@@ -71,102 +70,102 @@ let questions = [
   },
      {
     numb: 7,
-    question: "What does DOM stand for",
-    answer: "Document Object Model",
+    question: "Where in an HTML document is the correct place to refer to an external style sheet?",
+    answer: "In the head section",
     options: [
-       "Documentary Object Model",
-       "Document Object Motion",
-       "Document Object Model",
-      "All of the Above"
+       "In the body section",
+       "At the end of the document",
+       "In the head section",
+      "None of the above"
      ]
   },
      {
     numb: 8,
-    question: "What does DOM stand for",
-    answer: "Document Object Model",
+    question: "Which HTML attribute is used to define inline styles?",
+    answer: "style",
     options: [
-       "Documentary Object Model",
-       "Document Object Motion",
-       "Document Object Model",
-      "All of the Above"
+       "style",
+       "styles",
+       "font",
+      "class"
      ]
   },
      {
     numb: 9,
-    question: "What does DOM stand for",
-    answer: "Document Object Model",
+    question: "Which HTML attribute is used to define inline styles?",
+    answer: "background-color",
     options: [
-       "Documentary Object Model",
-       "Document Object Motion",
-       "Document Object Model",
+       "background-color",
+       "bgcolor",
+       "color",
       "All of the Above"
      ]
   },
      {
     numb: 10,
-    question: "What does DOM stand for",
-    answer: "Document Object Model",
+    question: "Which CSS property is used to change the text color of an element?",
+    answer: "color",
     options: [
-       "Documentary Object Model",
-       "Document Object Motion",
-       "Document Object Model",
-      "All of the Above"
+       "text-color",
+       "fgcolor",
+       "color",
+      "none of the Above"
      ]
   },
      {
     numb: 11,
-    question: "What does DOM stand for",
-    answer: "Document Object Model",
+    question: "Which CSS property controls the text size?",
+    answer: "font-size",
     options: [
-       "Documentary Object Model",
-       "Document Object Motion",
-       "Document Object Model",
-      "All of the Above"
+       "text-size",
+       "font-size",
+       "font-style",
+       "text-style"
      ]
   },
      {
     numb: 12,
-    question: "What does DOM stand for",
-    answer: "Document Object Model",
+    question: "Where is the correct place to insert a JavaScript?",
+    answer: "Body section",
     options: [
-       "Documentary Object Model",
-       "Document Object Motion",
-       "Document Object Model",
+       "Both the head and body section",
+       "head section",
+       "body section",
       "All of the Above"
      ]
   },
      {
     numb: 13,
-    question: "What does DOM stand for",
-    answer: "Document Object Model",
+    question: "How do you write Hello World in an alert box?",
+    answer: "alert(hello World)",
     options: [
-       "Documentary Object Model",
-       "Document Object Motion",
-       "Document Object Model",
-      "All of the Above"
+       "alert(hello World)",
+       "alertBox(hello World)",
+       "msgBox(hello World)",
+      "none of the Above"
      ]
   },
 
      {
     numb: 14,
-    question: "What does DOM stand for",
-    answer: "Document Object Model",
+    question: "How do you create a function in JavaScript?",
+    answer: "function = myFunction()",
     options: [
-       "Documentary Object Model",
-       "Document Object Motion",
-       "Document Object Model",
+       "function = myFunction()",
+       "function:myFunction()",
+       "function-myFunction()",
       "All of the Above"
      ]
   },
      {
     numb: 15,
-    question: "What does DOM stand for",
-    answer: "Document Object Model",
+    question: "How do you call a function named myFunction?",
+    answer: "myFunction()",
     options: [
-       "Documentary Object Model",
-       "Document Object Motion",
-       "Document Object Model",
-      "All of the Above"
+       "myFunction()",
+       "call myFunction()",
+       "call-myFunction()",
+      "none of the Above"
      ]
   },
 
